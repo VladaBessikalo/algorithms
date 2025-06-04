@@ -14,11 +14,11 @@ function isPrime(n) {
   return true;
 }
 
-console.log(isPrime(1));
-console.log(isPrime(5));
-console.log(isPrime(4));
-console.log(isPrime(0));
-console.log(isPrime(9));
+console.log(isPrime(1)); // false
+console.log(isPrime(5)); // true
+console.log(isPrime(4)); // false
+console.log(isPrime(0)); // false
+console.log(isPrime(9)); // false
 
 // Big-O = O(n)
 
