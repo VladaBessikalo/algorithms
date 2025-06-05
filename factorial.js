@@ -1,15 +1,19 @@
-// Fibonacci //
+// Factorial //
 
-function fibonacci(n) {
-    const fib = [0, 1];
-    for (let i = 2; i < n; i++) {
-        fib[i] = fib[i-1] + fib[i-2]
+function factorial(n) {
+    if (n < 1) {
+        return undefined;
     }
-    return fib;
+    let result = 1;
+
+    for (let i = 2; i <= n; i++) {
+        result *= i;
+    }
+    return result;
 }
 
-console.log(fibonacci(2));
-console.log(fibonacci(3));
-console.log(fibonacci(7));
 
+console.log(factorial(4)) // 24
+console.log(factorial(3)) // 6
+console.log(factorial(5)) // 120
 // Big-O = O(n) - Leaner
