@@ -10,7 +10,6 @@ function isPrime(n) {
       return false;
     }
   }
-
   return true;
 }
 

@@ -9,3 +9,5 @@ console.log(recursiveFibonacci(0)) // 0
 console.log(recursiveFibonacci(1)) // 1
 console.log(recursiveFibonacci(6)) // 8 
 console.log(recursiveFibonacci(7)) // 13
+
+// Time complexity Big-O = O(2^n) - recursive

@@ -2,7 +2,7 @@
 
 function factorial(n) {
     if (n < 1) {
-        return undefined;
+        return 1;
     }
     let result = 1;
 
