@@ -23,4 +23,13 @@ function merge(leftArr, rightArr) {
   return [...sortedArr, ...leftArr, ...rightArr];
 }
 
-console.log(mergeSort(arr))
+console.log(mergeSort(arr));
+// Big-O - O(nlogn) - best solution
+
+
+// sorting without algorithms
+function compareNumbers(a, b) {
+  return a - b;
+}
+
+console.log("sorting without algorithms:", arr.sort(compareNumbers))
