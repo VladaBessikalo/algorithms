@@ -17,3 +17,5 @@ function bubbleSort(arr) {
 
 bubbleSort(arr)
 console.log(arr)
+
+// big-O - O(n^2) - not effective for sorting, use another methods
