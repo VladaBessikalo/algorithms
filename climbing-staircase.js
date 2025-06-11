@@ -14,4 +14,4 @@ console.log(climbingStaircase(3)) // 3
 console.log(climbingStaircase(4)) // 5
 console.log(climbingStaircase(5)) // 8
 
-// Big-O = O(n)
+// Big-O = O(n) - linear
